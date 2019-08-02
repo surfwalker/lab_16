@@ -8,7 +8,6 @@ app.config.from_object(Config)
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-
 @app.route('/surfers', methods=["GET"])
 def all_surfers():
     surfers = [surfer.to_dict() for surfer in Surfer.query.all()]

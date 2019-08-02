@@ -11,6 +11,10 @@ python-dotenv = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
 gunicorn = "*"
+pytest = "*"
+flask-httpauth = "*"
+pyjwt = "*"
+flask-login = "*"
 
 [requires]
 python_version = "3.7"
